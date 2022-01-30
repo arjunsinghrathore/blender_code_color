@@ -1,0 +1,1 @@
+basset,Light,Light #2,..Diffuse,..bsst_body,bsst_eye,bsst_lIris,bsst_rIris,

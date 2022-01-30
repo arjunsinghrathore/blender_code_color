@@ -1,0 +1,19 @@
+module: unloading 'python/2.7.12'
+module: loading 'python/3.5.2'
+module: loading 'blender/2.79'
+module: loading 'cudnn/7.4'
+module: cudnn: To use: module load cuda/10.0.130
+module: loading 'cuda/10.0.130'
+module: loading 'openexr/2.2.1'
+module: loading 'opencv-python/4.1.0.25'
+module: opencv-python: To use: module load python/3.5.2
+stty: standard input: Inappropriate ioctl for device
+stty: standard input: Inappropriate ioctl for device
+stty: standard input: Inappropriate ioctl for device
+stty: standard input: Inappropriate ioctl for device
+stty: standard input: Inappropriate ioctl for device
+stty: standard input: Inappropriate ioctl for device
+stty: standard input: Inappropriate ioctl for device
+stty: standard input: Inappropriate ioctl for device
+stty: standard input: Inappropriate ioctl for device
+slurmstepd: error: *** JOB 3875997 ON gpu1204 CANCELLED AT 2022-01-29T07:36:13 ***

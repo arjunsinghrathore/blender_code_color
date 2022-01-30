@@ -1,0 +1,13 @@
+blender_render: The Brown Synthetic Scene Database*
+---
+
+
+This is (so far) the original rendering pipeline in Blender created by Caleb Weinreb.
+To get this set up on your machine, I'm pretty sure all you've got to do right now is (and I'm pretty sure this list will get shorter):
+  -- copy over the Assets directory from wherever the data is (todo: figure this structure out)
+  -- place a Blender executable in the aptly-named Blender_exec directory.
+Run Scripts/render.py from this directory and you're good to go!
+
+
+*: both are placeholder names, of course
+

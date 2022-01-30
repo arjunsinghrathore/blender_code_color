@@ -1,0 +1,1 @@
+jack,olhos,Torus,..Tex,Texture,Texture.001,Texture.002,Texture.003,..cor_metal,cor_vermelha,iris,jack_less,jack_material,jack_material_pelos,Jack_olhos,olhos_branco,pupila,

@@ -1,0 +1,112 @@
+2013-09-29 21:38:29 - WARNING - lamp  lamp9.blend is not in the Lamps dir
+2013-09-29 21:38:56 - WARNING - lamp  lamp9.blend is not in the Lamps dir
+2013-09-29 21:38:56 - WARNING - environment  env2.blend is not in the Environments dir
+2013-09-29 21:43:33 - WARNING - environment  env3.blend is not in the Environments dir
+2013-09-29 21:46:59 - WARNING - asset BSA_banta.blend is not in the spreadsheet
+2013-09-30 02:23:00 - FATAL - illegal user input
+2013-09-30 02:27:19 - WARNING - asset Bike1.blend is not in the spreadsheet
+2013-09-30 02:28:11 - WARNING - asset greenchair.blend is not in the spreadsheet
+2013-09-30 17:52:43 - WARNING - asset achair.blend is not in the spreadsheet
+2013-09-30 17:53:47 - WARNING - asset achair.blend is not in the spreadsheet
+2013-09-30 17:55:07 - WARNING - asset achair.blend is not in the spreadsheet
+2013-09-30 18:23:44 - WARNING - asset clover1.blend is not in the spreadsheet
+2013-09-30 18:24:29 - WARNING - asset clover1.blend is not in the spreadsheet
+2013-10-07 01:44:18 - FATAL - illegal user input
+2013-10-09 01:13:11 - WARNING - asset category  is not in the Assets dir
+2013-10-09 01:30:46 - WARNING - asset dog9.blend is not in the Assets/bird dir
+2013-10-09 01:30:46 - WARNING - asset dog9.blend is not in the Assets/car dir
+2013-10-09 01:30:46 - WARNING - asset dog9.blend is not in the Assets/chair dir
+2013-10-09 01:30:46 - WARNING - asset dog9.blend is not in the Assets/motorcycle dir
+2013-10-09 01:30:46 - WARNING - asset dog9.blend is not in the Assets/plant dir
+2013-10-09 01:30:46 - WARNING - asset dog9.blend is not in the Assets/temp dir
+2013-10-09 01:43:02 - WARNING - asset dog12.blend is not in the Assets/bird dir
+2013-10-09 01:43:02 - WARNING - asset dog12.blend is not in the Assets/car dir
+2013-10-09 01:43:02 - WARNING - asset dog12.blend is not in the Assets/chair dir
+2013-10-09 01:43:02 - WARNING - asset dog12.blend is not in the Assets/motorcycle dir
+2013-10-09 01:43:02 - WARNING - asset dog12.blend is not in the Assets/plant dir
+2013-10-09 01:43:02 - WARNING - asset dog12.blend is not in the Assets/temp dir
+2013-10-09 01:44:44 - WARNING - asset dog16.blend is not in the Assets/bird dir
+2013-10-09 01:44:44 - WARNING - asset dog16.blend is not in the Assets/car dir
+2013-10-09 01:44:44 - WARNING - asset dog16.blend is not in the Assets/chair dir
+2013-10-09 01:44:44 - WARNING - asset dog16.blend is not in the Assets/motorcycle dir
+2013-10-09 01:44:44 - WARNING - asset dog16.blend is not in the Assets/plant dir
+2013-10-09 01:44:44 - WARNING - asset dog16.blend is not in the Assets/temp dir
+2013-10-09 01:53:56 - WARNING - asset dog16.blend is not in the Assets/bird dir
+2013-10-09 01:53:56 - WARNING - asset dog16.blend is not in the Assets/car dir
+2013-10-09 01:53:56 - WARNING - asset dog16.blend is not in the Assets/chair dir
+2013-10-09 01:53:56 - WARNING - asset dog16.blend is not in the Assets/motorcycle dir
+2013-10-09 01:53:56 - WARNING - asset dog16.blend is not in the Assets/plant dir
+2013-10-09 01:53:56 - WARNING - asset dog16.blend is not in the Assets/temp dir
+2013-10-09 01:54:39 - WARNING - asset dog16.blend is not in the Assets/bird dir
+2013-10-09 01:54:39 - WARNING - asset dog16.blend is not in the Assets/car dir
+2013-10-09 01:54:39 - WARNING - asset dog16.blend is not in the Assets/chair dir
+2013-10-09 01:54:39 - WARNING - asset dog16.blend is not in the Assets/motorcycle dir
+2013-10-09 01:54:39 - WARNING - asset dog16.blend is not in the Assets/plant dir
+2013-10-09 01:54:39 - WARNING - asset dog16.blend is not in the Assets/temp dir
+2013-10-09 02:17:06 - WARNING - asset Low-Poly_Plant_2_BI.blend is not in the Assets/bird dir
+2013-10-09 02:17:06 - WARNING - asset Low-Poly_Plant_2_BI.blend is not in the Assets/car dir
+2013-10-09 02:17:06 - WARNING - asset Low-Poly_Plant_2_BI.blend is not in the Assets/chair dir
+2013-10-09 02:17:06 - WARNING - asset Low-Poly_Plant_2_BI.blend is not in the Assets/dog dir
+2013-10-09 02:17:06 - WARNING - asset Low-Poly_Plant_2_BI.blend is not in the Assets/motorcycle dir
+2013-10-09 02:17:06 - WARNING - asset Low-Poly_Plant_2_BI.blend is not in the Assets/temp dir
+2013-10-09 02:19:19 - WARNING - asset Low-Poly_Plant_2_BI.blend is not in the Assets/bird dir
+2013-10-09 02:19:19 - WARNING - asset Low-Poly_Plant_2_BI.blend is not in the Assets/car dir
+2013-10-09 02:19:19 - WARNING - asset Low-Poly_Plant_2_BI.blend is not in the Assets/chair dir
+2013-10-09 02:19:19 - WARNING - asset Low-Poly_Plant_2_BI.blend is not in the Assets/dog dir
+2013-10-09 02:19:19 - WARNING - asset Low-Poly_Plant_2_BI.blend is not in the Assets/motorcycle dir
+2013-10-09 02:19:19 - WARNING - asset Low-Poly_Plant_2_BI.blend is not in the Assets/temp dir
+2013-10-09 02:21:11 - FATAL - illegal user input
+2014-06-24 20:20:57 - FATAL - illegal user input
+2014-06-24 20:21:09 - WARNING - environment e1 is not in the Environments dir
+2014-06-24 20:21:53 - WARNING - asset dog16.blend is not in the Assets/bird dir
+2014-06-24 20:21:53 - WARNING - asset dog16.blend is not in the Assets/plant dir
+2014-06-24 20:21:53 - WARNING - asset dog16.blend is not in the Assets/motorcycle dir
+2014-06-24 20:21:53 - WARNING - asset dog16.blend is not in the Assets/chair dir
+2014-06-24 20:21:53 - WARNING - asset dog16.blend is not in the Assets/sofa dir
+2014-06-24 20:21:53 - WARNING - asset dog16.blend is not in the Assets/car dir
+2014-06-24 20:26:01 - WARNING - asset dog16.blend is not in the Assets/bird dir
+2014-06-24 20:26:01 - WARNING - asset dog16.blend is not in the Assets/plant dir
+2014-06-24 20:26:01 - WARNING - asset dog16.blend is not in the Assets/motorcycle dir
+2014-06-24 20:26:01 - WARNING - asset dog16.blend is not in the Assets/chair dir
+2014-06-24 20:26:01 - WARNING - asset dog16.blend is not in the Assets/sofa dir
+2014-06-24 20:26:01 - WARNING - asset dog16.blend is not in the Assets/car dir
+2014-06-24 20:34:44 - WARNING - asset dog16.blend is not in the Assets/bird dir
+2014-06-24 20:34:44 - WARNING - asset dog16.blend is not in the Assets/plant dir
+2014-06-24 20:34:44 - WARNING - asset dog16.blend is not in the Assets/motorcycle dir
+2014-06-24 20:34:44 - WARNING - asset dog16.blend is not in the Assets/chair dir
+2014-06-24 20:34:44 - WARNING - asset dog16.blend is not in the Assets/sofa dir
+2014-06-24 20:34:44 - WARNING - asset dog16.blend is not in the Assets/car dir
+2014-06-24 20:46:30 - WARNING - asset dog16.blend is not in the Assets/bird dir
+2014-06-24 20:46:30 - WARNING - asset dog16.blend is not in the Assets/plant dir
+2014-06-24 20:46:30 - WARNING - asset dog16.blend is not in the Assets/motorcycle dir
+2014-06-24 20:46:30 - WARNING - asset dog16.blend is not in the Assets/chair dir
+2014-06-24 20:46:30 - WARNING - asset dog16.blend is not in the Assets/sofa dir
+2014-06-24 20:46:30 - WARNING - asset dog16.blend is not in the Assets/car dir
+2014-06-24 20:47:24 - WARNING - asset dog16.blend is not in the Assets/bird dir
+2014-06-24 20:47:24 - WARNING - asset dog16.blend is not in the Assets/plant dir
+2014-06-24 20:47:24 - WARNING - asset dog16.blend is not in the Assets/motorcycle dir
+2014-06-24 20:47:24 - WARNING - asset dog16.blend is not in the Assets/chair dir
+2014-06-24 20:47:24 - WARNING - asset dog16.blend is not in the Assets/sofa dir
+2014-06-24 20:47:24 - WARNING - asset dog16.blend is not in the Assets/car dir
+2014-06-25 17:46:45 - FATAL - illegal user input
+2014-06-25 17:46:51 - FATAL - illegal user input
+2014-06-25 17:47:12 - FATAL - illegal user input
+2014-06-25 17:47:16 - FATAL - illegal user input
+2014-06-25 17:47:25 - WARNING - asset dog16.blend is not in the Assets/bird dir
+2014-06-25 17:47:25 - WARNING - asset dog16.blend is not in the Assets/plant dir
+2014-06-25 17:47:25 - WARNING - asset dog16.blend is not in the Assets/motorcycle dir
+2014-06-25 17:47:25 - WARNING - asset dog16.blend is not in the Assets/chair dir
+2014-06-25 17:47:25 - WARNING - asset dog16.blend is not in the Assets/sofa dir
+2014-06-25 17:47:25 - WARNING - asset dog16.blend is not in the Assets/car dir
+2014-06-25 17:47:50 - WARNING - asset dog1.blend is not in the Assets/bird dir
+2014-06-25 17:47:50 - WARNING - asset dog1.blend is not in the Assets/plant dir
+2014-06-25 17:47:50 - WARNING - asset dog1.blend is not in the Assets/motorcycle dir
+2014-06-25 17:47:50 - WARNING - asset dog1.blend is not in the Assets/chair dir
+2014-06-25 17:47:50 - WARNING - asset dog1.blend is not in the Assets/sofa dir
+2014-06-25 17:47:50 - WARNING - asset dog1.blend is not in the Assets/car dir
+2014-06-25 17:48:36 - WARNING - asset dog16.blend is not in the Assets/bird dir
+2014-06-25 17:48:36 - WARNING - asset dog16.blend is not in the Assets/plant dir
+2014-06-25 17:48:36 - WARNING - asset dog16.blend is not in the Assets/motorcycle dir
+2014-06-25 17:48:36 - WARNING - asset dog16.blend is not in the Assets/chair dir
+2014-06-25 17:48:36 - WARNING - asset dog16.blend is not in the Assets/sofa dir
+2014-06-25 17:48:36 - WARNING - asset dog16.blend is not in the Assets/car dir

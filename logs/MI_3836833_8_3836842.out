@@ -1,0 +1,236 @@
+## SLURM PROLOG ###############################################################
+##    Job ID : 3836842
+##  Job Name : render_MI_val
+##  Nodelist : gpu2006
+##      CPUs : 1
+##  Mem/Node : 40960 MB
+## Directory : /gpfs/data/tserre/aarjun1/blender_render-color_pos
+##   Started : Tue Jan 25 06:52:12 EST 2022
+###############################################################################
+8
+##################################################
+This is version: single_illuminant
+##################################################
+This is jobID: 3836842
+##################################################
+This is batch_size: 150000
+##################################################
+This is gpu_index: None
+['scenes/AI_33/AI33_005/AI33_005_280.blend', 'scenes/AI_33/AI33_003/AI33_003_280.blend', 'scenes/AI_33/AI33_009/AI33_009_280.blend', 'scenes/AI_33/AI33_002/AI33_002_280.blend', 'scenes/AI_33/AI33_007/AI33_007_280.blend', 'scenes/AI_33/AI33_001/AI33_001_280.blend', 'scenes/AI_33/AI33_006/AI33_006_280.blend', 'scenes/AI_33/AI33_010/AI33_010_280.blend', 'scenes/AI_43/AI43_010/AI043_010_Blender.blend', 'scenes/AI_43/AI43_006/AI043_006_Blender.blend', 'scenes/AI_43/AI43_005/AI043_005_Blender.blend', 'scenes/AI_43/AI43_004/AI043_004.blend', 'scenes/AI_43/AI43_008_blender/AI043_008.blend', 'scenes/AI_43/AI43_009/AI043_009_Blender.blend', 'scenes/AI_43/AI43_003/AI043_003_Blender.blend', 'scenes/AI_43/AI43_001/AI043_001_Blender.blend', 'scenes/AI_48/AI48_001/AI48_001.blend', 'scenes/AI_48/AI48_002/AI48_002.blend', 'scenes/AI_48/AI48_008/AI48_008.blend', 'scenes/AI_48/AI48_010/AI48_010.blend', 'scenes/AI_48/AI48_009/AI48_009.blend', 'scenes/AI_48/AI48_003/AI48_003.blend', 'scenes/AI_48/AI48_004/AI48_004.blend', 'scenes/AI_58/AI58_002/AI58_002.blend', 'scenes/AI_58/AI58_005/AI58_005.blend', 'scenes/AI_58/AI58_007/AI58_007.blend', 'scenes/AI_58/AI58_001/AI58_001.blend', 'scenes/AI_58/AI58_008/AI58_008.blend', 'scenes/AI_58/AI58_006/AI58_006.blend', 'scenes/AI_58/AI58_009/AI58_009.blend', 'scenes/AI_58/AI58_010/AI58_010.blend']
+blend_files len :  31
+Rendering to folder: /gpfs/scratch/aarjun1/blender_data/data5/images_single_illuminant
+Job folder successfully created
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Rendering index 0
+##################################################
+This is lenn: 31
+Background: AI043_006_Blender.blend
+Background pivot: [0.0, 0.0, 0.0]
+Universal color works22 : [0.44890924094072826, 0.4090966854791608, 0.4694327526423575, 1]
+Background intensity: 0.0
+mat_count : 0
+lamp_count: 0
+vertices: [[-12.940886497497559, -18.502309799194336, 0.0058177774772048], [-12.940886497497559, -18.502307891845703, 10.257091522216797], [-12.940886497497559, 19.959228515625, 10.25709056854248], [-12.940886497497559, 19.959226608276367, 0.005816095974296331], [13.370844841003418, -18.502309799194336, 0.0058177774772048], [13.370844841003418, -18.502307891845703, 10.257091522216797], [13.370844841003418, 19.959228515625, 10.25709056854248], [13.370844841003418, 19.959226608276367, 0.005816095974296331]]
+max_vol_name: ['AI43_006_00background']
+bounding_limits: [[-8.411576223373414, 8.691049146652222], [-12.026500129699707, 12.973498535156251], [0.0058177774772048, 10.257091522216797]]
+max_vol_name_list: [['AI43_006_00background'], ['AI43_006_206background'], ['AI43_006_55background']]
+Model arrangement: single
+sub_parameters: {'scale_uniform': True, 'scale_range': (0.35, 0.55), 'rotate': True, 'position_range': (-2.5, 2.5), 'directory': 'ben_blobs/test_stls'}
+position_range: (-2.5, 2.5)
+position: [7.395098849636131, -9.65902505682917, 2.686647314833098]
+##################################################
+This is lenn: 1
+##################################################
+This is lenn: 20
+Importing model from shape_375.stl
+Scale: [0.5360248978952029, 0.5360248978952029, 0.5360248978952029]
+model pos (7.395098849636131, -9.65902505682917, 2.686647314833098)
+model counterr [2]
+origin_location: [4.078476428985596, 0.9218894243240356, -0.2664831578731537]
+Model center location: [3.4064671993255615, -7.763424634933472, 3.4530924558639526]
+Camera location: (7.484943628311157, -6.841535210609436, 3.186609297990799), rotation: [-0.4271841439808315, -0.45527570479805396, -0.569671003443107, -0.534520988912618]
+Camera counter: 3
+Camera if_counter: 0
+Camera bool_chi: False
+Universal color works : [0.44890924094072826, 0.4090966854791608, 0.4694327526423575, 1]
+before light location: [1.7718505859375, 1.7836817502975464, 1.3442143201828003]
+counterr light: 1
+if_counter light: 0
+light location: (5.1783177852630615, -5.979742884635925, 4.797306776046753)
+light bool_chi: False
+Done Material: object
+Color Material: [0.2949648415171551, 0.681950998497486, 0.7880544489387119, 1]
+##################################################
+This is lenn: 1
+light_colors: {'scene_light': [0.44890924094072826, 0.4090966854791608, 0.4694327526423575, 1], 'light': [0.44890924094072826, 0.4090966854791608, 0.4694327526423575, 1]}
+scene_intensity: 162.71131086942506
+Render activated_gpus: []
+Render filename: 000000
+info_dict: {'scene_color': [0.44890924094072826, 0.4090966854791608, 0.4694327526423575, 1], 'scene_name': 'AI043_006_Blender.blend', 'blob_color': [0.2949648415171551, 0.681950998497486, 0.7880544489387119, 1], 'light_intensity': 162.71131086942506, 'camera_dist': 4.189852427699769}
+Render activated_gpus: []
+Render filename: 000000.gt_sm
+Render activated_gpus: []
+Render filename: 000000.gt_r
+Render activated_gpus: []
+Render filename: 000000.gt_ill
+Render 0 complete
+Data from render 0 saved
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Rendering index 1
+##################################################
+This is lenn: 31
+Background: AI48_009.blend
+Background pivot: [0.0, 0.0, 0.0]
+Universal color works22 : [0.3734087041264236, 0.5992991455480174, 0.6554700207052075, 1]
+Background intensity: 0.0
+mat_count : 0
+lamp_count: 0
+vertices: [[12.323814392089844, 23.951065063476562, 4.115785121917725], [12.323814392089844, 23.951066970825195, 18.631988525390625], [12.32382869720459, -14.510455131530762, 18.63199234008789], [12.32382869720459, -14.510457038879395, 4.115789890289307], [-18.79796028137207, 23.951053619384766, 4.115785121917725], [-18.79796028137207, 23.9510555267334, 18.631988525390625], [-18.797945022583008, -14.510467529296875, 18.63199234008789], [-18.797945022583008, -14.510469436645508, 4.115789890289307]]
+max_vol_name: ['AI48_009_roof_01background']
+bounding_limits: [[8.010479354858399, -12.218674182891846], [15.568193531036377, -9.431795835494995], [4.115785121917725, 18.631988525390625]]
+max_vol_name_list: [['AI48_009_baseboard_02background'], ['AI48_009_obj_007background'], ['AI48_009_roof_01background'], ['AI48_009_tablebackground'], ['Planebackground']]
+Model arrangement: single
+sub_parameters: {'files': ['/gpfs/scratch/aarjun1/train_data/ben_blobs/test_stls/shape_621.stl', '/gpfs/scratch/aarjun1/train_data/ben_blobs/test_stls/shape_755.stl', '/gpfs/scratch/aarjun1/train_data/ben_blobs/test_stls/shape_864.stl', '/gpfs/scratch/aarjun1/train_data/ben_blobs/test_stls/shape_400.stl', '/gpfs/scratch/aarjun1/train_data/ben_blobs/test_stls/shape_685.stl', '/gpfs/scratch/aarjun1/train_data/ben_blobs/test_stls/shape_863.stl', '/gpfs/scratch/aarjun1/train_data/ben_blobs/test_stls/shape_905.stl', '/gpfs/scratch/aarjun1/train_data/ben_blobs/test_stls/shape_939.stl', '/gpfs/scratch/aarjun1/train_data/ben_blobs/test_stls/shape_631.stl', '/gpfs/scratch/aarjun1/train_data/ben_blobs/test_stls/shape_364.stl', '/gpfs/scratch/aarjun1/train_data/ben_blobs/test_stls/shape_375.stl', '/gpfs/scratch/aarjun1/train_data/ben_blobs/test_stls/shape_711.stl', '/gpfs/scratch/aarjun1/train_data/ben_blobs/test_stls/shape_892.stl', '/gpfs/scratch/aarjun1/train_data/ben_blobs/test_stls/shape_951.stl', '/gpfs/scratch/aarjun1/train_data/ben_blobs/test_stls/shape_702.stl', '/gpfs/scratch/aarjun1/train_data/ben_blobs/test_stls/shape_597.stl', '/gpfs/scratch/aarjun1/train_data/ben_blobs/test_stls/shape_17.stl', '/gpfs/scratch/aarjun1/train_data/ben_blobs/test_stls/shape_971.stl', '/gpfs/scratch/aarjun1/train_data/ben_blobs/test_stls/shape_371.stl', '/gpfs/scratch/aarjun1/train_data/ben_blobs/test_stls/shape_461.stl'], 'rotate': True, 'scale_uniform': True, 'scale_range': (0.35, 0.55), 'position_range': (-2.5, 2.5), 'directory': 'ben_blobs/test_stls'}
+position_range: (-2.5, 2.5)
+position: [1.689917412576074, 7.161121859438396, 11.977817479351625]
+##################################################
+This is lenn: 1
+##################################################
+This is lenn: 20
+Importing model from shape_364.stl
+Scale: [0.3883380383992545, 0.3883380383992545, 0.3883380383992545]
+model pos (1.689917412576074, 7.161121859438396, 11.977817479351625)
+model counterr [16]
+origin_location: [-0.6170969009399414, 0.09789033979177475, 2.553042411804199]
+Model center location: [-3.296656608581543, 5.552355766296387, 6.704949378967285]
+Camera location: (-3.9137535095214844, 5.6502461060881615, 9.257991790771484), rotation: [0.6446864676120948, 0.07774078994192307, -0.09104488642083286, -0.7550142758343467]
+Camera counter: 1
+Camera if_counter: 0
+Camera bool_chi: False
+Universal color works : [0.3734087041264236, 0.5992991455480174, 0.6554700207052075, 1]
+before light location: [1.63808274269104, 0.15306434035301208, 0.39607444405555725]
+counterr light: 1
+if_counter light: 0
+light location: (-1.658573865890503, 5.705420106649399, 7.101023823022842)
+light bool_chi: False
+Done Material: object
+Color Material: [0.5853882046001523, 0.5857980508260401, 0.5617774612390205, 1]
+##################################################
+This is lenn: 1
+light_colors: {'scene_light': [0.3734087041264236, 0.5992991455480174, 0.6554700207052075, 1], 'light': [0.3734087041264236, 0.5992991455480174, 0.6554700207052075, 1]}
+scene_intensity: 129.61433999828665
+Render activated_gpus: []
+Render filename: 000001
+info_dict: {'scene_color': [0.3734087041264236, 0.5992991455480174, 0.6554700207052075, 1], 'scene_name': 'AI48_009.blend', 'blob_color': [0.5853882046001523, 0.5857980508260401, 0.5617774612390205, 1], 'light_intensity': 129.61433999828665, 'camera_dist': 2.6283867029501637}
+Render activated_gpus: []
+Render filename: 000001.gt_sm
+Render activated_gpus: []
+Render filename: 000001.gt_r
+Render activated_gpus: []
+Render filename: 000001.gt_ill
+Render 1 complete
+Data from render 1 saved
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Rendering index 2
+##################################################
+This is lenn: 31
+Background: AI48_004.blend
+Background pivot: [0.0, 0.0, 0.0]
+Universal color works22 : [0.8867355444574426, 0.5596944019003177, 0.6132703916512314, 1]
+Background intensity: 0.0
+mat_count : 0
+lamp_count: 0
+vertices: [[-20.305208206176758, -18.652700424194336, -0.05821257457137108], [-20.305208206176758, -18.652700424194336, 10.971534729003906], [-20.305208206176758, 19.808794021606445, 10.971532821655273], [-20.305208206176758, 19.808794021606445, -0.058214254677295685], [2.1590309143066406, -18.652700424194336, -0.05821257457137108], [2.1590309143066406, -18.652700424194336, 10.971534729003906], [2.1590309143066406, 19.808794021606445, 10.971532821655273], [2.1590309143066406, 19.808794021606445, -0.058214254677295685]]
+max_vol_name: ['AI48_004_blockerbackground']
+bounding_limits: [[-13.198385334014892, 1.4033700942993164], [-12.124255275726318, 12.87571611404419], [-0.05821257457137108, 10.971534729003906]]
+max_vol_name_list: [['AI48_004_basket_background'], ['AI48_004_blockerbackground'], ['AI48_004_floor_planksbackground'], ['AI48_004_planksbackground'], ['AI48_004_skull_hornsbackground'], ['AI48_004_table_v1background'], ['AI48_004_wood_construction_01background']]
+Model arrangement: single
+sub_parameters: {'files': ['/gpfs/scratch/aarjun1/train_data/ben_blobs/test_stls/shape_621.stl', '/gpfs/scratch/aarjun1/train_data/ben_blobs/test_stls/shape_755.stl', '/gpfs/scratch/aarjun1/train_data/ben_blobs/test_stls/shape_864.stl', '/gpfs/scratch/aarjun1/train_data/ben_blobs/test_stls/shape_400.stl', '/gpfs/scratch/aarjun1/train_data/ben_blobs/test_stls/shape_685.stl', '/gpfs/scratch/aarjun1/train_data/ben_blobs/test_stls/shape_863.stl', '/gpfs/scratch/aarjun1/train_data/ben_blobs/test_stls/shape_905.stl', '/gpfs/scratch/aarjun1/train_data/ben_blobs/test_stls/shape_939.stl', '/gpfs/scratch/aarjun1/train_data/ben_blobs/test_stls/shape_631.stl', '/gpfs/scratch/aarjun1/train_data/ben_blobs/test_stls/shape_364.stl', '/gpfs/scratch/aarjun1/train_data/ben_blobs/test_stls/shape_375.stl', '/gpfs/scratch/aarjun1/train_data/ben_blobs/test_stls/shape_711.stl', '/gpfs/scratch/aarjun1/train_data/ben_blobs/test_stls/shape_892.stl', '/gpfs/scratch/aarjun1/train_data/ben_blobs/test_stls/shape_951.stl', '/gpfs/scratch/aarjun1/train_data/ben_blobs/test_stls/shape_702.stl', '/gpfs/scratch/aarjun1/train_data/ben_blobs/test_stls/shape_597.stl', '/gpfs/scratch/aarjun1/train_data/ben_blobs/test_stls/shape_17.stl', '/gpfs/scratch/aarjun1/train_data/ben_blobs/test_stls/shape_971.stl', '/gpfs/scratch/aarjun1/train_data/ben_blobs/test_stls/shape_371.stl', '/gpfs/scratch/aarjun1/train_data/ben_blobs/test_stls/shape_461.stl'], 'rotate': True, 'scale_uniform': True, 'scale_range': (0.35, 0.55), 'position_range': (-2.5, 2.5), 'directory': 'ben_blobs/test_stls'}
+position_range: (-2.5, 2.5)
+position: [-3.9102578739777485, 1.1165452240372638, 10.130113423710277]
+##################################################
+This is lenn: 1
+##################################################
+This is lenn: 20
+Importing model from shape_400.stl
+Scale: [0.4676207463468314, 0.4676207463468314, 0.4676207463468314]
+model pos (-3.9102578739777485, 1.1165452240372638, 10.130113423710277)
+model counterr [2]
+origin_location: [-1.5386019945144653, 2.560141086578369, 2.26005220413208]
+Model center location: [-4.783787727355957, 1.094569355249405, 2.4437909722328186]
+Camera location: (-6.322389721870422, 3.654710441827774, 4.703843176364899), rotation: [0.23931722864524757, 0.1190244647917409, -0.42911326823435925, -0.8627990750341732]
+Camera counter: 1
+Camera if_counter: 0
+Camera bool_chi: False
+Universal color works : [0.8867355444574426, 0.5596944019003177, 0.6132703916512314, 1]
+before light location: [1.3985697031021118, 0.5393843650817871, 2.00877046585083]
+counterr light: 1
+if_counter light: 0
+light location: (-3.385218024253845, 1.633953720331192, 4.452561438083649)
+light bool_chi: False
+Done Material: object
+Color Material: [0.5711416845463255, 0.7984174665819033, 0.8996957400823953, 1]
+##################################################
+This is lenn: 1
+light_colors: {'scene_light': [0.8867355444574426, 0.5596944019003177, 0.6132703916512314, 1], 'light': [0.8867355444574426, 0.5596944019003177, 0.6132703916512314, 1]}
+scene_intensity: 191.05535539672007
+Render activated_gpus: []
+Render filename: 000002
+info_dict: {'scene_color': [0.8867355444574426, 0.5596944019003177, 0.6132703916512314, 1], 'scene_name': 'AI48_004.blend', 'blob_color': [0.5711416845463255, 0.7984174665819033, 0.8996957400823953, 1], 'light_intensity': 191.05535539672007, 'camera_dist': 3.7455913346376746}
+Render activated_gpus: []
+Render filename: 000002.gt_sm
+Render activated_gpus: []
+Render filename: 000002.gt_r
+Render activated_gpus: []
+Render filename: 000002.gt_ill
+Render 2 complete
+Data from render 2 saved
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Rendering index 3
+##################################################
+This is lenn: 31
+Background: AI043_003_Blender.blend
+Background pivot: [0.0, 0.0, 0.0]
+Universal color works22 : [0.3766802503160257, 0.78681385643333, 0.22313188360572964, 1]
+Background intensity: 0.0
+mat_count : 0
+lamp_count: 0
+vertices: [[-12.840497016906738, -20.774497985839844, 1.0513038635253906], [-12.840497016906738, -20.774497985839844, 17.737064361572266], [-12.840497016906738, 17.687040328979492, 17.737064361572266], [-12.840497016906738, 17.687040328979492, 1.051302194595337], [15.495990753173828, -20.774497985839844, 1.0513038635253906], [15.495990753173828, -20.774497985839844, 17.737064361572266], [15.495990753173828, 17.687040328979492, 17.737064361572266], [15.495990753173828, 17.687040328979492, 1.051302194595337]]
+max_vol_name: ['AI43_003_01background']
+bounding_limits: [[-8.34632306098938, 10.072393989562988], [-13.503423690795898, 11.49657621383667], [1.0513038635253906, 17.737064361572266]]
+max_vol_name_list: [['AI43_003_01background'], ['AI43_003_03background'], ['AI43_003_04background'], ['AI43_003_10background']]
+Model arrangement: single
+sub_parameters: {'files': ['/gpfs/scratch/aarjun1/train_data/ben_blobs/test_stls/shape_621.stl', '/gpfs/scratch/aarjun1/train_data/ben_blobs/test_stls/shape_755.stl', '/gpfs/scratch/aarjun1/train_data/ben_blobs/test_stls/shape_864.stl', '/gpfs/scratch/aarjun1/train_data/ben_blobs/test_stls/shape_400.stl', '/gpfs/scratch/aarjun1/train_data/ben_blobs/test_stls/shape_685.stl', '/gpfs/scratch/aarjun1/train_data/ben_blobs/test_stls/shape_863.stl', '/gpfs/scratch/aarjun1/train_data/ben_blobs/test_stls/shape_905.stl', '/gpfs/scratch/aarjun1/train_data/ben_blobs/test_stls/shape_939.stl', '/gpfs/scratch/aarjun1/train_data/ben_blobs/test_stls/shape_631.stl', '/gpfs/scratch/aarjun1/train_data/ben_blobs/test_stls/shape_364.stl', '/gpfs/scratch/aarjun1/train_data/ben_blobs/test_stls/shape_375.stl', '/gpfs/scratch/aarjun1/train_data/ben_blobs/test_stls/shape_711.stl', '/gpfs/scratch/aarjun1/train_data/ben_blobs/test_stls/shape_892.stl', '/gpfs/scratch/aarjun1/train_data/ben_blobs/test_stls/shape_951.stl', '/gpfs/scratch/aarjun1/train_data/ben_blobs/test_stls/shape_702.stl', '/gpfs/scratch/aarjun1/train_data/ben_blobs/test_stls/shape_597.stl', '/gpfs/scratch/aarjun1/train_data/ben_blobs/test_stls/shape_17.stl', '/gpfs/scratch/aarjun1/train_data/ben_blobs/test_stls/shape_971.stl', '/gpfs/scratch/aarjun1/train_data/ben_blobs/test_stls/shape_371.stl', '/gpfs/scratch/aarjun1/train_data/ben_blobs/test_stls/shape_461.stl'], 'rotate': True, 'scale_uniform': True, 'scale_range': (0.35, 0.55), 'position_range': (-2.5, 2.5), 'directory': 'ben_blobs/test_stls'}
+position_range: (-2.5, 2.5)
+position: [-1.9494393945477082, -9.643707116807917, 4.443629699055155]
+##################################################
+This is lenn: 1
+##################################################
+This is lenn: 20
+Importing model from shape_702.stl
+Scale: [0.3714862005830156, 0.3714862005830156, 0.3714862005830156]
+model pos (-1.9494393945477082, -9.643707116807917, 4.443629699055155)
+model counterr [6]
+origin_location: [1.2869505882263184, -0.05989314243197441, 3.144943952560425]
+Model center location: [3.3832019567489624, 5.954010963439941, 7.141139984130859]
+Camera location: (4.670152544975281, 5.894117821007967, 10.286083936691284), rotation: [0.7097307619010844, 0.13973721701035527, 0.13338525772199653, 0.6774689135421225]
+Camera counter: 1
+Camera if_counter: 0
+Camera bool_chi: False
+Universal color works : [0.3766802503160257, 0.78681385643333, 0.22313188360572964, 1]
+before light location: [-0.024390809237957, 1.2406679391860962, 1.0490227937698364]
+counterr light: 1
+if_counter light: 0
+light location: (3.3588111475110054, 7.194678902626038, 8.190162777900696)
+light bool_chi: False
+Done Material: object
+Color Material: [0.7603969611284978, 0.4154019890036238, 0.6088920444347325, 1]
+##################################################
+This is lenn: 1
+light_colors: {'scene_light': [0.3766802503160257, 0.78681385643333, 0.22313188360572964, 1], 'light': [0.3766802503160257, 0.78681385643333, 0.22313188360572964, 1]}
+scene_intensity: 179.95923666032348
+Render activated_gpus: []
+Render filename: 000003
+info_dict: {'scene_color': [0.3766802503160257, 0.78681385643333, 0.22313188360572964, 1], 'scene_name': 'AI043_003_Blender.blend', 'blob_color': [0.7603969611284978, 0.4154019890036238, 0.6088920444347325, 1], 'light_intensity': 179.95923666032348, 'camera_dist': 3.3986028702678444}
+Render activated_gpus: []
+Render filename: 000003.gt_sm

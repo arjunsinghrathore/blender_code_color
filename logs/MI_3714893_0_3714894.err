@@ -1,0 +1,14 @@
+module: unloading 'python/2.7.12'
+module: loading 'python/3.5.2'
+module: loading 'blender/2.79'
+module: loading 'cudnn/7.4'
+module: cudnn: To use: module load cuda/10.0.130
+module: loading 'cuda/10.0.130'
+module: loading 'openexr/2.2.1'
+module: loading 'opencv-python/4.1.0.25'
+module: opencv-python: To use: module load python/3.5.2
+usage: generate_dataset.py [-h] [--gpu_index GPU_INDEX] [--version VERSION]
+                           [--verbose] [--use_db [USE_DB]] [--debug_passes]
+                           [--grid_index GRID_INDEX] [--batch_size BATCH_SIZE]
+                           [--force_continue] [--job_number JOB_NUMBER]
+generate_dataset.py: error: argument --gpu_index: expected one argument

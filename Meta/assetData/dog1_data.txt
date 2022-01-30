@@ -1,0 +1,1 @@
+Gazelle,gazelle.eye.L,gazelle.eye.R,whippet.nails.BL,whippet.nails.BR,whippet.nails.FL,whippet.nails.FR,..Texture,Texture.001,..eye,Material.001,Material.002,toeNail,

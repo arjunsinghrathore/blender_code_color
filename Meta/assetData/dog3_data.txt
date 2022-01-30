@@ -1,0 +1,1 @@
+Cube.001,..Texture,..Material.001,

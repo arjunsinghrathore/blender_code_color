@@ -1,0 +1,10 @@
+## SLURM PROLOG ###############################################################
+##    Job ID : 3714903
+##  Job Name : render_MI_val
+##  Nodelist : node1602
+##      CPUs : 7
+##  Mem/Node : 40960 MB
+## Directory : /gpfs/data/tserre/aarjun1/blender_render-color_pos
+##   Started : Mon Dec 27 01:39:41 EST 2021
+###############################################################################
+9

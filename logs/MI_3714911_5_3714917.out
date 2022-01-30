@@ -1,0 +1,68 @@
+## SLURM PROLOG ###############################################################
+##    Job ID : 3714917
+##  Job Name : render_MI_val
+##  Nodelist : node1109
+##      CPUs : 7
+##  Mem/Node : 40960 MB
+## Directory : /gpfs/data/tserre/aarjun1/blender_render-color_pos
+##   Started : Mon Dec 27 01:44:59 EST 2021
+###############################################################################
+5
+##################################################
+This is version: single_illuminant
+##################################################
+This is jobID: 3714917
+##################################################
+This is batch_size: 150000
+##################################################
+This is gpu_index: None
+['scenes/AI_33/AI33_005/AI33_005_280.blend', 'scenes/AI_33/AI33_003/AI33_003_280.blend', 'scenes/AI_33/AI33_009/AI33_009_280.blend', 'scenes/AI_33/AI33_002/AI33_002_280.blend', 'scenes/AI_33/AI33_007/AI33_007_280.blend', 'scenes/AI_33/AI33_001/AI33_001_280.blend', 'scenes/AI_33/AI33_006/AI33_006_280.blend', 'scenes/AI_33/AI33_010/AI33_010_280.blend', 'scenes/AI_43/AI43_010/AI043_010_Blender.blend', 'scenes/AI_43/AI43_006/AI043_006_Blender.blend', 'scenes/AI_43/AI43_005/AI043_005_Blender.blend', 'scenes/AI_43/AI43_004/AI043_004.blend', 'scenes/AI_43/AI43_008_blender/AI043_008.blend', 'scenes/AI_43/AI43_009/AI043_009_Blender.blend', 'scenes/AI_43/AI43_003/AI043_003_Blender.blend', 'scenes/AI_43/AI43_001/AI043_001_Blender.blend', 'scenes/AI_48/AI48_001/AI48_001.blend', 'scenes/AI_48/AI48_002/AI48_002.blend', 'scenes/AI_48/AI48_008/AI48_008.blend', 'scenes/AI_48/AI48_010/AI48_010.blend', 'scenes/AI_48/AI48_009/AI48_009.blend', 'scenes/AI_48/AI48_003/AI48_003.blend', 'scenes/AI_48/AI48_004/AI48_004.blend', 'scenes/AI_58/AI58_002/AI58_002.blend', 'scenes/AI_58/AI58_005/AI58_005.blend', 'scenes/AI_58/AI58_007/AI58_007.blend', 'scenes/AI_58/AI58_001/AI58_001.blend', 'scenes/AI_58/AI58_008/AI58_008.blend', 'scenes/AI_58/AI58_006/AI58_006.blend', 'scenes/AI_58/AI58_009/AI58_009.blend', 'scenes/AI_58/AI58_010/AI58_010.blend']
+blend_files len :  31
+Rendering to folder: /gpfs/scratch/aarjun1/blender_data/data5/images_single_illuminant
+Job folder successfully created
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Rendering index 0
+##################################################
+This is lenn: 31
+Background: AI48_009.blend
+Background pivot: [0.0, 0.0, 0.0]
+Universal color works22 : [0.5422873874009863, 0.5768750349691132, 0.6990562813496503, 1]
+Background intensity: 0.0
+mat_count : 0
+lamp_count: 0
+vertices: [[12.323814392089844, 23.951065063476562, 4.115785121917725], [12.323814392089844, 23.951066970825195, 18.631988525390625], [12.32382869720459, -14.510455131530762, 18.63199234008789], [12.32382869720459, -14.510457038879395, 4.115789890289307], [-18.79796028137207, 23.951053619384766, 4.115785121917725], [-18.79796028137207, 23.9510555267334, 18.631988525390625], [-18.797945022583008, -14.510467529296875, 18.63199234008789], [-18.797945022583008, -14.510469436645508, 4.115789890289307]]
+max_vol_name: ['AI48_009_roof_01background']
+bounding_limits: [[8.010479354858399, -12.218674182891846], [15.568193531036377, -9.431795835494995], [4.115785121917725, 18.631988525390625]]
+max_vol_name_list: [['AI48_009_baseboard_02background'], ['AI48_009_obj_007background'], ['AI48_009_roof_01background'], ['AI48_009_tablebackground'], ['Planebackground']]
+Model arrangement: single
+sub_parameters: {'scale_uniform': True, 'directory': 'ben_blobs/test_stls', 'scale_range': (0.35, 0.55), 'rotate': True, 'position_range': (-2.5, 2.5)}
+position_range: (-2.5, 2.5)
+position: [6.36417972882052, 9.974850184392647, 13.388415552482416]
+##################################################
+This is lenn: 1
+##################################################
+This is lenn: 20
+Importing model from shape_685.stl
+Scale: [0.5107543057805489, 0.5107543057805489, 0.5107543057805489]
+model pos (6.36417972882052, 9.974850184392647, 13.388415552482416)
+model counterr [2]
+origin_location: [-1.7445381879806519, -2.678468942642212, -2.5824906826019287]
+Model center location: [-7.2258830070495605, -0.46850764751434326, 5.640230178833008]
+Camera location: (-8.970421195030212, -3.146976590156555, 3.057739496231079), rotation: [0.41318980196265664, 0.865010558510901, -0.25685992265406543, -0.12269434116073749]
+Camera counter: 1
+Camera if_counter: 0
+Camera bool_chi: False
+Universal color works : [0.5422873874009863, 0.5768750349691132, 0.6990562813496503, 1]
+before light location: [0.3549269735813141, -0.3921580910682678, 1.9479784965515137]
+counterr light: 1
+if_counter light: 0
+light location: (-6.8709560334682465, -0.8606657385826111, 7.5882086753845215)
+light bool_chi: False
+Done Material: object
+Color Material: [0.8278191614208922, 0.6741507045426257, 0.1282873490620048, 1]
+##################################################
+This is lenn: 1
+light_colors: {'light': [0.5422873874009863, 0.5768750349691132, 0.6990562813496503, 1], 'scene_light': [0.5422873874009863, 0.5768750349691132, 0.6990562813496503, 1]}
+scene_intensity: 147.5092574224633
+Render activated_gpus: []
+Render filename: 000000

@@ -1,0 +1,1 @@
+dog,eyes,..Texture,..bn1dk_shiny01,dog_d_doberman01,Material #18,

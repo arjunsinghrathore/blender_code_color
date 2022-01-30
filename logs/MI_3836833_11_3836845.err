@@ -1,0 +1,55 @@
+module: unloading 'python/2.7.12'
+module: loading 'python/3.5.2'
+module: loading 'blender/2.79'
+module: loading 'cudnn/7.4'
+module: cudnn: To use: module load cuda/10.0.130
+module: loading 'cuda/10.0.130'
+module: loading 'openexr/2.2.1'
+module: loading 'opencv-python/4.1.0.25'
+module: opencv-python: To use: module load python/3.5.2
+stty: standard input: Inappropriate ioctl for device
+stty: standard input: Inappropriate ioctl for device
+stty: standard input: Inappropriate ioctl for device
+stty: standard input: Inappropriate ioctl for device
+stty: standard input: Inappropriate ioctl for device
+stty: standard input: Inappropriate ioctl for device
+stty: standard input: Inappropriate ioctl for device
+stty: standard input: Inappropriate ioctl for device
+stty: standard input: Inappropriate ioctl for device
+stty: standard input: Inappropriate ioctl for device
+stty: standard input: Inappropriate ioctl for device
+stty: standard input: Inappropriate ioctl for device
+stty: standard input: Inappropriate ioctl for device
+stty: standard input: Inappropriate ioctl for device
+stty: standard input: Inappropriate ioctl for device
+stty: standard input: Inappropriate ioctl for device
+stty: standard input: Inappropriate ioctl for device
+stty: standard input: Inappropriate ioctl for device
+stty: standard input: Inappropriate ioctl for device
+Traceback (most recent call last):
+  File "generate_dataset.py", line 208, in <module>
+    main()
+  File "generate_dataset.py", line 204, in main
+    job_number=job_number)
+  File "generate_dataset.py", line 29, in generate_dataset
+    for render in render_manager:
+  File "/gpfs/data/tserre/aarjun1/blender_render-color_pos/blender_manager.py", line 100, in __next__
+    return self.do_render_steps()
+  File "/gpfs/data/tserre/aarjun1/blender_render-color_pos/blender_manager.py", line 223, in do_render_steps
+    self.render(condition='gt_sm', bool_ch = True)           # <----------------- # <-----------------
+  File "/gpfs/data/tserre/aarjun1/blender_render-color_pos/blender_manager.py", line 1273, in render
+    self.blender.render(png_file, stereo, animate, bool_ch)
+  File "/users/aarjun1/ENV/lib/python3.5/site-packages/fauxton/_core.py", line 303, in <lambda>
+    return lambda *x: call(self._id, symbol, *x)
+  File "/users/aarjun1/ENV/lib/python3.5/site-packages/fauxton/_core.py", line 276, in call
+    return demarshall(m_result)
+  File "/users/aarjun1/ENV/lib/python3.5/site-packages/fauxton/_core.py", line 271, in demarshall
+    raise BlenderError(value)
+fauxton.BlenderError: Traceback (most recent call last):
+  File "/tmp/tmpgi9f972z/server.py", line 169, in call
+  File "<string>", line 1612, in render
+  File "/gpfs/rt/7.2/opt/blender/2.79/bin/2.79/scripts/modules/bpy/ops.py", line 189, in __call__
+    ret = op_call(self.idname_py(), None, kw)
+RuntimeError: Error: Render error (Invalid argument) cannot save: '/gpfs/scratch/aarjun1/blender_data/data5/images_single_illuminant/3836845/000002.gt_sm.png'
+
+

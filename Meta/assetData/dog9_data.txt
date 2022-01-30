@@ -1,0 +1,1 @@
+Dog,eyeball.L,eyeball.R,eyelidBottom.L,eyelidBottom.R,eyelidTop.L,eyelidTop.R,Torus.001,....Black.L,collar,eye_lids,fur,gums,nose,teeth,White,

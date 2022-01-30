@@ -1,0 +1,183 @@
+module: unloading 'python/2.7.12'
+module: loading 'python/3.5.2'
+module: loading 'blender/2.79'
+module: loading 'cudnn/7.4'
+module: cudnn: To use: module load cuda/10.0.130
+module: loading 'cuda/10.0.130'
+module: loading 'openexr/2.2.1'
+module: loading 'opencv-python/4.1.0.25'
+module: opencv-python: To use: module load python/3.5.2
+stty: standard input: Inappropriate ioctl for device
+stty: standard input: Inappropriate ioctl for device
+stty: standard input: Inappropriate ioctl for device
+stty: standard input: Inappropriate ioctl for device
+stty: standard input: Inappropriate ioctl for device
+stty: standard input: Inappropriate ioctl for device
+stty: standard input: Inappropriate ioctl for device
+stty: standard input: Inappropriate ioctl for device
+stty: standard input: Inappropriate ioctl for device
+stty: standard input: Inappropriate ioctl for device
+stty: standard input: Inappropriate ioctl for device
+stty: standard input: Inappropriate ioctl for device
+stty: standard input: Inappropriate ioctl for device
+stty: standard input: Inappropriate ioctl for device
+stty: standard input: Inappropriate ioctl for device
+stty: standard input: Inappropriate ioctl for device
+stty: standard input: Inappropriate ioctl for device
+stty: standard input: Inappropriate ioctl for device
+stty: standard input: Inappropriate ioctl for device
+stty: standard input: Inappropriate ioctl for device
+stty: standard input: Inappropriate ioctl for device
+stty: standard input: Inappropriate ioctl for device
+stty: standard input: Inappropriate ioctl for device
+stty: standard input: Inappropriate ioctl for device
+stty: standard input: Inappropriate ioctl for device
+stty: standard input: Inappropriate ioctl for device
+stty: standard input: Inappropriate ioctl for device
+stty: standard input: Inappropriate ioctl for device
+stty: standard input: Inappropriate ioctl for device
+stty: standard input: Inappropriate ioctl for device
+stty: standard input: Inappropriate ioctl for device
+stty: standard input: Inappropriate ioctl for device
+stty: standard input: Inappropriate ioctl for device
+stty: standard input: Inappropriate ioctl for device
+stty: standard input: Inappropriate ioctl for device
+stty: standard input: Inappropriate ioctl for device
+stty: standard input: Inappropriate ioctl for device
+stty: standard input: Inappropriate ioctl for device
+stty: standard input: Inappropriate ioctl for device
+stty: standard input: Inappropriate ioctl for device
+stty: standard input: Inappropriate ioctl for device
+stty: standard input: Inappropriate ioctl for device
+stty: standard input: Inappropriate ioctl for device
+stty: standard input: Inappropriate ioctl for device
+stty: standard input: Inappropriate ioctl for device
+stty: standard input: Inappropriate ioctl for device
+stty: standard input: Inappropriate ioctl for device
+stty: standard input: Inappropriate ioctl for device
+stty: standard input: Inappropriate ioctl for device
+stty: standard input: Inappropriate ioctl for device
+stty: standard input: Inappropriate ioctl for device
+stty: standard input: Inappropriate ioctl for device
+stty: standard input: Inappropriate ioctl for device
+stty: standard input: Inappropriate ioctl for device
+stty: standard input: Inappropriate ioctl for device
+stty: standard input: Inappropriate ioctl for device
+stty: standard input: Inappropriate ioctl for device
+stty: standard input: Inappropriate ioctl for device
+stty: standard input: Inappropriate ioctl for device
+stty: standard input: Inappropriate ioctl for device
+stty: standard input: Inappropriate ioctl for device
+stty: standard input: Inappropriate ioctl for device
+stty: standard input: Inappropriate ioctl for device
+stty: standard input: Inappropriate ioctl for device
+stty: standard input: Inappropriate ioctl for device
+stty: standard input: Inappropriate ioctl for device
+stty: standard input: Inappropriate ioctl for device
+stty: standard input: Inappropriate ioctl for device
+stty: standard input: Inappropriate ioctl for device
+stty: standard input: Inappropriate ioctl for device
+stty: standard input: Inappropriate ioctl for device
+stty: standard input: Inappropriate ioctl for device
+stty: standard input: Inappropriate ioctl for device
+stty: standard input: Inappropriate ioctl for device
+stty: standard input: Inappropriate ioctl for device
+stty: standard input: Inappropriate ioctl for device
+Traceback (most recent call last):
+  File "generate_dataset.py", line 29, in generate_dataset
+    for render in render_manager:
+  File "/gpfs/data/tserre/aarjun1/blender_render-color_pos/blender_manager.py", line 100, in __next__
+    return self.do_render_steps()
+  File "/gpfs/data/tserre/aarjun1/blender_render-color_pos/blender_manager.py", line 223, in do_render_steps
+    self.render(condition='gt_sm', bool_ch = True)           # <----------------- # <-----------------
+  File "/gpfs/data/tserre/aarjun1/blender_render-color_pos/blender_manager.py", line 1273, in render
+    self.blender.render(png_file, stereo, animate, bool_ch)
+  File "/users/aarjun1/ENV/lib/python3.5/site-packages/fauxton/_core.py", line 303, in <lambda>
+    return lambda *x: call(self._id, symbol, *x)
+  File "/users/aarjun1/ENV/lib/python3.5/site-packages/fauxton/_core.py", line 275, in call
+    m_result = server.call(module_id, symbol, *m_arguments)
+  File "/gpfs/runtime/opt/python/3.5.2/lib/python3.5/xmlrpc/client.py", line 1092, in __call__
+    return self.__send(self.__name, args)
+  File "/gpfs/runtime/opt/python/3.5.2/lib/python3.5/xmlrpc/client.py", line 1432, in __request
+    verbose=self.__verbose
+  File "/gpfs/runtime/opt/python/3.5.2/lib/python3.5/xmlrpc/client.py", line 1134, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/gpfs/runtime/opt/python/3.5.2/lib/python3.5/xmlrpc/client.py", line 1146, in single_request
+    http_conn = self.send_request(host, handler, request_body, verbose)
+  File "/gpfs/runtime/opt/python/3.5.2/lib/python3.5/xmlrpc/client.py", line 1259, in send_request
+    self.send_content(connection, request_body)
+  File "/gpfs/runtime/opt/python/3.5.2/lib/python3.5/xmlrpc/client.py", line 1289, in send_content
+    connection.endheaders(request_body)
+  File "/gpfs/runtime/opt/python/3.5.2/lib/python3.5/http/client.py", line 1102, in endheaders
+    self._send_output(message_body)
+  File "/gpfs/runtime/opt/python/3.5.2/lib/python3.5/http/client.py", line 934, in _send_output
+    self.send(msg)
+  File "/gpfs/runtime/opt/python/3.5.2/lib/python3.5/http/client.py", line 877, in send
+    self.connect()
+  File "/gpfs/runtime/opt/python/3.5.2/lib/python3.5/http/client.py", line 849, in connect
+    (self.host,self.port), self.timeout, self.source_address)
+  File "/gpfs/runtime/opt/python/3.5.2/lib/python3.5/socket.py", line 711, in create_connection
+    raise err
+  File "/gpfs/runtime/opt/python/3.5.2/lib/python3.5/socket.py", line 702, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "generate_dataset.py", line 208, in <module>
+    main()
+  File "generate_dataset.py", line 204, in main
+    job_number=job_number)
+  File "generate_dataset.py", line 50, in generate_dataset
+    render_manager.save_dataset()
+  File "/gpfs/data/tserre/aarjun1/blender_render-color_pos/blender_manager.py", line 71, in __exit__
+    server.remove_module(self.blender._id)
+  File "/gpfs/runtime/opt/python/3.5.2/lib/python3.5/xmlrpc/client.py", line 1092, in __call__
+    return self.__send(self.__name, args)
+  File "/gpfs/runtime/opt/python/3.5.2/lib/python3.5/xmlrpc/client.py", line 1432, in __request
+    verbose=self.__verbose
+  File "/gpfs/runtime/opt/python/3.5.2/lib/python3.5/xmlrpc/client.py", line 1134, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/gpfs/runtime/opt/python/3.5.2/lib/python3.5/xmlrpc/client.py", line 1146, in single_request
+    http_conn = self.send_request(host, handler, request_body, verbose)
+  File "/gpfs/runtime/opt/python/3.5.2/lib/python3.5/xmlrpc/client.py", line 1259, in send_request
+    self.send_content(connection, request_body)
+  File "/gpfs/runtime/opt/python/3.5.2/lib/python3.5/xmlrpc/client.py", line 1289, in send_content
+    connection.endheaders(request_body)
+  File "/gpfs/runtime/opt/python/3.5.2/lib/python3.5/http/client.py", line 1102, in endheaders
+    self._send_output(message_body)
+  File "/gpfs/runtime/opt/python/3.5.2/lib/python3.5/http/client.py", line 934, in _send_output
+    self.send(msg)
+  File "/gpfs/runtime/opt/python/3.5.2/lib/python3.5/http/client.py", line 877, in send
+    self.connect()
+  File "/gpfs/runtime/opt/python/3.5.2/lib/python3.5/http/client.py", line 849, in connect
+    (self.host,self.port), self.timeout, self.source_address)
+  File "/gpfs/runtime/opt/python/3.5.2/lib/python3.5/socket.py", line 711, in create_connection
+    raise err
+  File "/gpfs/runtime/opt/python/3.5.2/lib/python3.5/socket.py", line 702, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+Error in atexit._run_exitfuncs:
+Traceback (most recent call last):
+  File "/gpfs/runtime/opt/python/3.5.2/lib/python3.5/xmlrpc/client.py", line 1134, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/gpfs/runtime/opt/python/3.5.2/lib/python3.5/xmlrpc/client.py", line 1146, in single_request
+    http_conn = self.send_request(host, handler, request_body, verbose)
+  File "/gpfs/runtime/opt/python/3.5.2/lib/python3.5/xmlrpc/client.py", line 1259, in send_request
+    self.send_content(connection, request_body)
+  File "/gpfs/runtime/opt/python/3.5.2/lib/python3.5/xmlrpc/client.py", line 1289, in send_content
+    connection.endheaders(request_body)
+  File "/gpfs/runtime/opt/python/3.5.2/lib/python3.5/http/client.py", line 1102, in endheaders
+    self._send_output(message_body)
+  File "/gpfs/runtime/opt/python/3.5.2/lib/python3.5/http/client.py", line 934, in _send_output
+    self.send(msg)
+  File "/gpfs/runtime/opt/python/3.5.2/lib/python3.5/http/client.py", line 877, in send
+    self.connect()
+  File "/gpfs/runtime/opt/python/3.5.2/lib/python3.5/http/client.py", line 849, in connect
+    (self.host,self.port), self.timeout, self.source_address)
+  File "/gpfs/runtime/opt/python/3.5.2/lib/python3.5/socket.py", line 711, in create_connection
+    raise err
+  File "/gpfs/runtime/opt/python/3.5.2/lib/python3.5/socket.py", line 702, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
